@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+h1 {
+    background-color: #081b31;
+    color: #fff;
+    height: 4rem;
+    line-height: 4rem;
+}
+img {
+    height:130px;
+    width:130px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 30px;
+}
+.choice {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice {
+    height:140px;
+    width:140px;
+}
+.choice:hover {
+    height:140px;
+    width:140px;
+    background-color: black; 
+    border-radius: 50%;
+}
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap:20px;
+    margin-top: 50px;
+}
+.result {
+    background-color: black;
+    color:white;
+    font-size: 2rem;
+    line-height: 3rem;
+    display:inline-block;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
